@@ -1,9 +1,8 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   
   body {
     font-family: 'Segoe UI', sans-serif;
@@ -12,7 +11,7 @@
     line-height: 1.6;
   }
   
-  /* Cabeçalho */
+
   header {
     background: #1f1f1f;
     padding: 20px 0;
@@ -44,7 +43,7 @@
     color: #00bcd4;
   }
   
-  /* Hero (início) */
+
   #hero {
     background: linear-gradient(to right, #00bcd4, #2196f3);
     color: white;
@@ -65,7 +64,7 @@
     margin-top: 10px;
   }
   
-  /* Seções */
+
   .section {
     padding: 60px 20px;
   }
@@ -82,7 +81,7 @@
     text-align: center;
   }
   
-  /* Grid de projetos */
+
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -115,7 +114,7 @@
     text-decoration: underline;
   }
   
-  /* Contato */
+
   #contato p {
     text-align: center;
     margin: 8px 0;
@@ -125,7 +124,7 @@
     color: #2196f3;
   }
   
-  /* Rodapé */
+
   footer {
     background: #1f1f1f;
     color: white;
@@ -133,61 +132,3 @@
     padding: 20px;
     font-size: 14px;
   }
-/* Responsividade para tablets e celulares */
-@media (max-width: 768px) {
-  header .container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  nav {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  nav a {
-    margin: 10px 0;
-  }
-
-  #hero h2 {
-    font-size: 1.8em;
-  }
-
-  #hero p {
-    font-size: 1em;
-  }
-
-  h2 {
-    font-size: 1.5em;
-  }
-
-  .card {
-    padding: 16px;
-  }
-
-  footer {
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 480px) {
-  body {
-    font-size: 14px;
-  }
-
-  .section {
-    padding: 40px 15px;
-  }
-
-  #hero {
-    padding: 60px 15px;
-  }
-
-  .card h3 {
-    font-size: 1.1em;
-  }
-}
-
-  
